@@ -17,7 +17,8 @@
         position: fixed;
         left: 0;
         top: 0;
-        display: none;
+        transform: translateX(-250px);
+        transition: 1s;
       }
       .row {
         display: flex;
@@ -25,7 +26,7 @@
         align-items: center;
       }
       aside.is-open {
-        display: block;
+        transform: translateX(0);
       }
       p {
         margin: 40px 250px;
@@ -225,3 +226,4 @@
     </script>
   </body>
 </html>
+
